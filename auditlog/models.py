@@ -12,7 +12,7 @@ from django.contrib.contenttypes.models import ContentType
 from django.core import serializers
 from django.core.exceptions import FieldDoesNotExist
 from django.db import DEFAULT_DB_ALIAS, models
-from django.db.models import Q, QuerySet
+from django.db.models import Q, QuerySet, JSONField
 from django.utils import formats
 from django.utils.encoding import smart_str
 from django.utils.translation import gettext_lazy as _
